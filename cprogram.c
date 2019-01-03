@@ -2,5 +2,5 @@
 
 int main()
 {
-printf("Einfochips");
+printf("\nHello Einfochips\n");
 }
