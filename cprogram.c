@@ -2,5 +2,5 @@
 
 int main()
 {
-print("Einfochips")
+printf("Einfochips")
 }
