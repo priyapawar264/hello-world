@@ -14,7 +14,7 @@ int main(int argc,char* argv[])
         printf("\nNumber Of Arguments Passed: %d",argc);
         printf("\n----Following Are The Command Line Arguments Passed----\n");
         for(counter=0;counter<argc;counter++)
-            printf("\nargv[%d]: %s",counter,argv[counter]);
+            printf("\nargv[%d]: %s\n",counter,argv[counter]);
     }
     return 0;
 }
