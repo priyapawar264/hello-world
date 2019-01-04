@@ -15,9 +15,7 @@ int main(int argc,char* argv[])
         printf("\nNumber Of Arguments Passed: %d",argc);
         printf("\n----Following Are The Command Line Arguments Passed----");
         for(counter=0;counter<argc;counter++)
-            printf("\natoi(argv[counter]): %s",argv[counter]);
-            sum = sum + atoi(argv[counter]);
+            printf("\natoi(argv[%d]): %s",counter,argv[counter]);
     }
-    printf("The sum is: %d", sum);
     return 0;
 }
