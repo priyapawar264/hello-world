@@ -19,11 +19,11 @@ int main(int argc,char* argv[])
     int max;
     if(argv[1]>argv[2])
     {
-        printf("Greater number is: %d", argv[1])
+        printf("Greater number is: %d", argv[1]);
     }
     else
     {
-        printf("Greater number is: %d", argv[2])
+        printf("Greater number is: %d", argv[2]);
     }
     return 0;
 }
