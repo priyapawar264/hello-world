@@ -1,1 +1,1 @@
-print('Welcome to coreBSP')
+print('Welcome to coreBSP module')
