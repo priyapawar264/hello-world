@@ -1,1 +1,1 @@
-print("Hello Einfochips")
+printf("Hello Einfochips")
