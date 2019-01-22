@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-int main()
+int main(int argc,char* argv[])
 {
-int value;
-printf("\nHello Einfochips\n");
-value = 0/0;
+    int counter;
+    int sum;
+    printf("Program Name Is: %s",argv[0]);
+    sum = atoi(argv[1])/atoi(argv[2]);
+    return 0;
 }
