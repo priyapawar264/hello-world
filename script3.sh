@@ -1,2 +1,2 @@
 gcc -o cprogram cprogram.c
-./cprogram $Number1
+./cprogram $Number
