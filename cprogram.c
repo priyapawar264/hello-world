@@ -17,7 +17,7 @@ int main(int argc,char* argv[])
             }
             else
             {
-                printf("\n***********Failure is occured**********");
+                printf("\n***********Failure is occured**********\n");
             }
     }
     return 0;
