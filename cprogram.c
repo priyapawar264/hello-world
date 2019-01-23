@@ -1,25 +1,20 @@
+// C program to illustrate
+// command line arguments
 #include <stdio.h>
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <netdb.h> 
-#include <netdb.h>
-#include <string.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <errno.h>
-#include <arpa/inet.h>
 
-void error(char *msg) {
-    perror(msg);
-    exit(0);
-}
-
-int main()
+int main(int argc,char* argv[])
 {
     int counter;
     int sum;
-    printf("Program Name Is");
-    error( const_cast<char *>( "ERROR") );
+    printf("Program Name Is: %s",argv[0]);
+    if(argc==1)
+        printf("\nNo Extra Command Line Argument Passed Other Than Program Name\n");
+    if(argc>=2)
+    {
+        printf("\nNumber Of Arguments Passed are: %d",argc);
+        printf("\n----Following Are The Command Line Arguments Passed----");
+        for(counter=0;counter<argc;counter++)
+            printf("\natoi(argv[%d]): %s",counter,argv[counter]);
+    }
     return 0;
 }
