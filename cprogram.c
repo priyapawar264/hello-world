@@ -10,6 +10,11 @@
 #include <errno.h>
 #include <arpa/inet.h>
 
+void error(char *msg) {
+    perror(msg);
+    exit(0);
+}
+
 int main()
 {
     int counter;
